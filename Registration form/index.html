@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+
+    
+</head>
+<body style="background-color: rgba(86, 105, 210, 0.99);">
+
+
+    <fieldset>
+    
+    <legend><h1><center><em><font size="20">Registration Form</font></em></center></h1></legend>
+    <form action="https://www.facebook.com/" method="get">
+    <center>
+        <p><b>Username:</b><br/>
+            <input type="text" name="Username" required="required" size="40" maxlength="40"/></p>
+        <p><b>Father Name:</b><br/>
+            <input type="text" name="father name" required="required" size="40" maxlength="40"/></p>
+            <p><b>Email:</b><br/>
+            <input name="email" type="email" size="40" maxlength="40"/></P>
+        <p><b>Address:</b><br/>
+            <textarea name="Address" cols="30" rows="2">type your current address</textarea></p>
+        <p><b>Phone:</b>
+            <select name="country code" size="1">
+                <option value="93">93</option>
+                <option value="61">61</option>
+                <option value="973">973</option>
+                <option value="975">975</option>
+                <option value="855">855</option>
+                <option value="86">86</option>
+                <option value="45">45</option>
+                <option value="291">291</option>
+                <option value="995">995</option>
+                <option value="92">92</option>
+                <option value="974">974</option>
+                <option value="94">94</option>
+                <option value="44">44</option>
+            </select>
+            <input type="number" name="phone" size="40" maxlength="20"/>
+        </p>    
+        <p>Please select your registered sim network<br/>
+            <input type="radio" name="sim network" value="Jazz" checked="checked"/>Jazz
+            <input type="radio" name="sim network" value="Ufone" checked="checked"/>Ufone
+            <input type="radio" name="sim network" value="Zong" checked="checked"/>Zong
+        </p>
+        <p>Gender:<br/>
+            <input type="checkbox" name="gender" value="male"/>male
+            <input type="checkbox" name="gender" value="female"/>Female
+            <input type="checkbox" name="gender" value="other"/>Other
+
+        </p>
+        <p>Do you have interest in any of the following courses?<br/>(you can select more than one option by holding down control on a PC or<br/> Command key on a Mac while selecting different options.)</p>
+           <select name="courses" size="3" multiple="multipule">
+           <option value="Digital Marketing " selected="selected">Digital Marketing</option> 
+           <option value="Affiliate Marketing" selected="selected">Affiliate Marketing</option>
+           <option value="Web Development" selected="selected">Web Development</option>
+           <option aria-value="Graphic Designer">Graphic Designer</option>
+           <option value="Artificial Intelligence">Artifical Intelligence</option>
+           </select>
+        </p>
+        <p><b>For Queries:</b></p>
+           <input type="search" name="search"
+           placeholder="enter keyword"/>
+           <input type="submit" value="search"/>
+        <p><b>Upload Your Resume:</b><br/>
+            <input type="file" name="resume"/><br/>
+            <input type="submit" value="Upload"/>
+
+        </p>
+        <label for="username"><b>Date:</b></label>
+        <input type="date" name="date"/>
+         
+        </p>
+        
+        <button><input type="image" src="./image/download.jfif" alt="submit" width="100" height="50"/></button>
+        <input type="hidden" name="bookmark" value="subscribe"/>
+        
+
+    </form>
+   
+        
+</center>
+    <input type="reset" name="reset"/>
+
+</fieldset>
+</body>
+</html>
